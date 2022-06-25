@@ -1,4 +1,4 @@
 package ElectronicMedicalManagementSystem;
 
-public class Test {
+public class MedicalTest {
 }
