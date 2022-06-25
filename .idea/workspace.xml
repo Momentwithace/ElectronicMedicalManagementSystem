@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8940e9a0-7e27-4531-b3ba-3a923abf2345" name="Changes" comment="Add all files to a package folder">
-      <change afterPath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/MedicalRecord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/Record.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/MedicalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ElectronicMedicalManagementSystem/User.java" beforeDir="false" />
-    </list>
+    <list default="true" id="8940e9a0-7e27-4531-b3ba-3a923abf2345" name="Changes" comment="Add all files to a package folder" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Ace" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +59,7 @@
       <recent name="ElectronicMedicalManagementSystem" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DoctorTest">
+  <component name="RunManager">
     <configuration name="DoctorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ElectronicMedicalManagementSystem" />
       <extension name="coverage">
@@ -112,7 +106,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656156812062</updated>
-      <workItem from="1656156813652" duration="5570000" />
+      <workItem from="1656156813652" duration="7504000" />
     </task>
     <task id="LOCAL-00001" summary="Add all files to a package folder">
       <created>1656157968526</created>
