@@ -1,4 +1,4 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
 
 
 import java.util.ArrayList;

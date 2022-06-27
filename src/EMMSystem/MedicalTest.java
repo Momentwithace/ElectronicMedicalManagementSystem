@@ -1,12 +1,18 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
+
+import java.util.ArrayList;
+import java.util.Date;
 
 public class MedicalTest {
+    private static int uniqueId = 201;
     private  int testId;
     private  String testType;
+    private final Date dateCrated;
 
-    public MedicalTest(int testId, String testType) {
-        this.testId = testId;
+    public MedicalTest(String testType) {
+        this.testId = ++uniqueId;
         this.testType = testType;
+        dateCrated = new Date();
     }
     public int getTestId() {
         return testId;

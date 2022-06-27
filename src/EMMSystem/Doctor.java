@@ -1,21 +1,23 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
 
 public class Doctor {
     private String doctorFirstName;
     private String doctorSecondName;
     private int age;
+    private String gender;
     private String specialization;
     private int yearOfPractice;
 
     private int uniqueId = 1001;
-    private int id;
-    public Doctor(String doctorsFirstName, String doctorSecondName, int age, String specialization, int yearOfPractice) {
+    private int doctorId;
+    public Doctor(String doctorsFirstName, String doctorSecondName, int age, String gender, String specialization, int yearOfPractice) {
         this.doctorFirstName = doctorsFirstName;
         this.doctorSecondName = doctorSecondName;
         this.age = age;
+        this.gender = gender;
         this.specialization = specialization;
         this.yearOfPractice = yearOfPractice;
-        this.id = uniqueId++;
+        this.doctorId = uniqueId++;
 
     }
 
@@ -39,4 +41,6 @@ public class Doctor {
         return yearOfPractice;
     }
 
+    public int getDoctorId() { return doctorId;
+    }
 }

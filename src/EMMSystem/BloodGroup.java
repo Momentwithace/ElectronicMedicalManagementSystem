@@ -1,4 +1,4 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
 
 public enum BloodGroup {
     O_POSITIVE,

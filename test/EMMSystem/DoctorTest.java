@@ -1,4 +1,4 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -11,7 +11,7 @@ public class DoctorTest {
     @BeforeEach
     void testThatWeHaveADoctor() {
         doctor = new Doctor("Ace",
-                "Black", 34, "Surgeon", 4);
+                "Black", 34, "male","Surgeon", 4);
         assertNotNull(doctor);
     }
 
@@ -38,7 +38,11 @@ public class DoctorTest {
     @Test
     void testThatWeCanGetDoctorsYearOfPractice() {
         assertEquals(4, doctor.getYearOfPractice());
+    }
 
+    @Test
+    void testThatWeCanGetADoctorUsingDoctorId(){
+        assertEquals(1001, doctor.getDoctorId());
     }
 
 }

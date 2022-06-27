@@ -1,4 +1,5 @@
-import ElectronicMedicalManagementSystem.MedicalTest;
+package EMMSystem;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ public class MedicalTestTest {
     @BeforeEach
 
     void setMyTest(){
-        test = new MedicalTest(1,"HIV/AIDS");
+        test = new MedicalTest("HIV/AIDS");
     }
 
     @Test
@@ -20,14 +21,12 @@ public class MedicalTestTest {
 
     @Test
     void testThatWeCanGetTestId(){
-        assertEquals(1,test.getTestId());
+        assertEquals(202,test.getTestId());
     }
 
     @Test
     void testThatWeCanGetTestType(){
         assertEquals("HIV/AIDS", test.getTestType());
     }
-
-
 
 }
