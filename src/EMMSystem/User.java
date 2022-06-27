@@ -1,22 +1,27 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
+
+import java.util.ArrayList;
+import java.util.Collection;
 
 public class User {
 
-    private int id;
+    private int userId;
     private static int uniqueId = 100;
     private String firstName;
     private String secondName;
     private String gender;
     private int age;
     private String password;
+    private ArrayList<Hospital> hospitals;
 
     public User(String firstName, String secondName, String gender, int age, String password) {
-        this.id = ++uniqueId;
+        this.userId = ++uniqueId;
         this.firstName = firstName;
         this.secondName = secondName;
         this.gender = gender;
         this.age = age;
         this.password = password;
+        this.hospitals = new ArrayList<>();
     }
 
 
@@ -44,4 +49,25 @@ public class User {
     public String getPassword() {
         return password;
     }
+
+    public int getUserId() {
+        return userId;
+    }
+
+//    public void addHospital(Hospital newHospital) {
+//        hospitals.add(newHospital);
+//    }
+//
+//    public Hospital getHospital(int hospitalId) {
+//        for(Hospital hospital : hospitals){
+//            if(hospital.getHospitalId() == hospitalId){
+//                return hospital;
+//            }
+//        }
+//        return null;
+//    }
+//
+//    public ArrayList<Hospital> getHospitalList() {
+//        return hospitals;
+//    }
 }

@@ -1,4 +1,4 @@
-package ElectronicMedicalManagementSystem;
+package EMMSystem;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -12,8 +12,9 @@ class MedicalRecordTest {
 
     @BeforeEach
     void setUp() {
-        doctor = new Doctor("ace", "black", 23, "Surgeon", 5);
-        hospital = new Hospital();
+        doctor = new Doctor("ace", "black", 23,"male", "Surgeon", 5);
+        hospital = new Hospital("AceLab", "342, sabo yaba", "090678652232",
+                "aceblack@ymail", "Lekki");
         newMedicalRecord = new MedicalRecord(doctor, hospital);
     }
 
